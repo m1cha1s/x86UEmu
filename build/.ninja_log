@@ -1,0 +1,9 @@
+# ninja log v5
+0	11	1669746427583022152	LibUEmu/isa/x86/CMakeFiles/LibUEmuX86.dir/LibUEmuX86.cpp.o	98734c548a5ed42b
+0	11	1669746427583022152	LibUEmu/core/CMakeFiles/LibUEmuCore.dir/LibUEmuCore.cpp.o	dbe38099aa49be77
+0	11	1669746427583022152	LibUEmu/platform/linux/CMakeFiles/LibUEmuLinux.dir/LibUEmuLinux.cpp.o	dcdae9c27b0b894a
+0	15	1669746427587022245	dev/UEmuLinuxX86/CMakeFiles/UEmuLinuxX86.dir/UEmuLinuxX86.cpp.o	15bea01595bb4c4e
+12	78	1669746427647023656	LibUEmu/platform/linux/libLibUEmuLinux.a	48831cc3fc5f1603
+11	78	1669746427647023656	LibUEmu/core/libLibUEmuCore.a	f84e32962b47cef2
+11	78	1669746427647023656	LibUEmu/isa/x86/libLibUEmuX86.a	6d740a3a042d119
+78	97	1669746427671024221	dev/UEmuLinuxX86/UEmuLinuxX86	9f1597da0590f5a9

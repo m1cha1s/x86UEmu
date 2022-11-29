@@ -1,0 +1,283 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						7
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "LibUEmu",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "LibUEmu"
+				},
+				{
+					"build" : "LibUEmu/core",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "LibUEmu/core",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "LibUEmu/isa",
+					"childIndexes" : 
+					[
+						4
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "LibUEmu/isa"
+				},
+				{
+					"build" : "LibUEmu/isa/x86",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "LibUEmu/isa/x86",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "LibUEmu/platform",
+					"childIndexes" : 
+					[
+						6
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "LibUEmu/platform"
+				},
+				{
+					"build" : "LibUEmu/platform/linux",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 6,
+					"source" : "LibUEmu/platform/linux",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "dev",
+					"childIndexes" : 
+					[
+						8
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "dev"
+				},
+				{
+					"build" : "dev/UEmuLinuxX86",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 7,
+					"source" : "dev/UEmuLinuxX86",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						7
+					],
+					"name" : "Project"
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "LibUEmu",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "LibUEmuCore",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "LibUEmuISA",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "LibUEmuX86",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						6
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "LibUEmuPlatform",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "LibUEmuLinux",
+					"parentIndex" : 5,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "UEmuLinuxX86",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "LibUEmuCore::@dea0bb937b4997d59024",
+					"jsonFile" : "target-LibUEmuCore-Debug-da924bf299a7d803ae5e.json",
+					"name" : "LibUEmuCore",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "LibUEmuLinux::@8a658caf2e57da25586b",
+					"jsonFile" : "target-LibUEmuLinux-Debug-43b66e7100962c4906f1.json",
+					"name" : "LibUEmuLinux",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "LibUEmuX86::@0609e690412b24647cd7",
+					"jsonFile" : "target-LibUEmuX86-Debug-b592a48deb1fafb71f6b.json",
+					"name" : "LibUEmuX86",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "UEmuLinuxX86::@a2067a41106f2b86108d",
+					"jsonFile" : "target-UEmuLinuxX86-Debug-b2b5e7d43fb2c7e3b2d0.json",
+					"name" : "UEmuLinuxX86",
+					"projectIndex" : 7
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/m1cha1s/x86UEmu/build",
+		"source" : "/home/m1cha1s/x86UEmu"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
